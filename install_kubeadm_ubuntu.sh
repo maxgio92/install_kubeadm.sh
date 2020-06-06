@@ -64,3 +64,7 @@ apt-get update
 apt-get install -y kubelet kubeadm kubectl
 apt-mark hold kubelet kubeadm kubectl
 
+cat <<EOF
+You are ready to initialize the master node or join a cluster as a worker node.
+Please see: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
+EOF
